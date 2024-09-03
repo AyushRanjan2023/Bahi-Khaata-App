@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.content{
+  height: 100vh;
+}
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+ 
+/* transaction-page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  box-shadow: 0 0 3px rgb(42, 195, 255);
+}
+
+
+/* transaction-page */
+
+/* ant design icons */
+.switch-icons{
+  border: 1px solid rgb(0, 115, 255);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+    color: rgb(8, 91, 255)
+}
+.inactive-icon{
+  color: #75d1ff;
+}
